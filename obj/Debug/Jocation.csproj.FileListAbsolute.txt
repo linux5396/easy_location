@@ -1,0 +1,16 @@
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\Jocation.exe.config
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\Jocation.exe
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\Jocation.pdb
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\iMobileDevice-net.dll
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\iMobileDevice-net.pdb
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\bin\Debug\iMobileDevice-net.xml
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Interop.SystemMonitor.dll
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.csproj.ResolveComReference.cache
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\LocationCleaned.frmMain.resources
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\LocationCleaned.frmMap.resources
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.Properties.Resources.resources
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.csproj.GenerateResource.cache
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.csproj.CopyComplete
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.exe
+C:\Users\SAMSUNG\Desktop\JocationRelease-master\Jocation\obj\Debug\Jocation.pdb

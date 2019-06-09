@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EasyLocation.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="psw" Type="System.String" Scope="User">
+      <Value Profile="(Default)">请输入续租卡密</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
