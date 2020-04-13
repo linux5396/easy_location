@@ -60,24 +60,7 @@ namespace LocationCleaned
                             String uuid;
                             iDevice.idevice_get_udid(iDeviceHandle,out uuid);
                             Uid = uuid;
-                            String response=Post("http://39.98.41.126:11293/validate", uuid,out ret,false,uuid);
                            
-                            if (response.Trim() == "2")
-                            {
-                                PrintMessage("您的设备已经超期，请联系作者,微信号lllinx123");
-                                PrintMessage("60秒后自动关闭程序...");
-                                //Process.Start("");
-                                //设置失败
-                                ret = false;
-                                Thread.Sleep(60*1000);
-                                Environment.Exit(0);
-                            }else if (response.Trim()=="1")
-                            {
-                                PrintMessage("欢迎使用该软件，您的免费时长为1天！请在到期后联系微信号lllinx123");
-                            }else if (response.Trim() == "3")
-                            {
-                                PrintMessage("您的设备在有效期内，可正常使用！");
-                            }
                             LockdownClientHandle lockdownClientHandle;
 
                             lockdown.lockdownd_client_new_with_handshake(iDeviceHandle, out lockdownClientHandle, "Quamotion").ThrowOnError("无法读取设备Quamotion");
