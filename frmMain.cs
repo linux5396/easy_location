@@ -45,17 +45,9 @@ namespace LocationCleaned
         {
             //var location = new Location(txtLocationTest.Text);
             //service.UpdateLocation(location);
-            //先进行验证
-            if (service.ret == false)
-            {
-                PrintMessage("设备已经过期，无法使用，请联系作者，微信号 lllinx123 ");
-            }
-            else
-            {
-                //地址的修改
-                service.UpdateLocation(map.Location);
-            }
-     
+               //地址的修改
+               service.UpdateLocation(map.Location);
+
         }
 
         public void PrintMessage(string msg)
@@ -91,31 +83,7 @@ namespace LocationCleaned
             {
                 PrintMessage("你输入的卡密为空，请确认后输入！");
             }
-            else
-            {
-                //添加POST方法
-                bool ret;
-                String status=service.Post("http://39.98.41.126:11293/commit", textBox1.Text,out ret,true,service.Uid);
-                //TODO对status的判断
-                switch (status)
-                {
-                    case "1": {
-                            PrintMessage("卡密错误或者已经使用！");
-                            break; }
-                    case "2":
-                        {
-                            PrintMessage("续约成功!重新重启软件后正常使用！");
-                            service.ret = true;
-                            break;
-                        }
-                    case "0":
-                        {
-                            PrintMessage("数据问题或者系统原因，请联系作者！");
-                            break;
-                        }
-                }
-
-            }
+            
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
